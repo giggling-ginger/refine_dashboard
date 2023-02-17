@@ -24,7 +24,7 @@ const Home = () => {
   if (isError) return <Typography>Something went wrong!</Typography>;
 
   return (
-    <Box bgcolor="#FFFFFF">
+    <Box>
       <Typography fontSize={25} fontWeight={700} color="#11142D">
         Dashboard
       </Typography>
